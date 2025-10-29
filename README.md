@@ -85,15 +85,15 @@ The executable expects **three arguments**:
 ./main <prefix> <jobname> <startfileNo>
 ~~~
 
-- `<prefix>`: path/prefix to your case/input files (and where outputs may be grouped)
-- `<jobname>`: short label used in output naming/organization
-- `<startfileNo>`: integer index to start from (e.g., `0`)
+- `<prefix>`: short label used in output naming/organization
+- `<jobname>`: path to your case/input files (and where outputs may be grouped)
+- `<startfileNo>`: (optional) integer index to start from (e.g., `0`)
 
 **Example:**
 
 ~~~
 # from build/ (where the executable lives after building)
-./main ../data/mg10gd_3d/ run01 0
+./main -01 ../data/NNPP 0
 ~~~
 
 If fewer than 3 arguments are provided, the program prints:
