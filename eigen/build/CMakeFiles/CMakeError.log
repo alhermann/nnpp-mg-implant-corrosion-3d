@@ -1,0 +1,165 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3123572199/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3123572199.dir/build.make CMakeFiles/cmTryCompileExec3123572199.dir/build
+gmake[1]: Entering directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3123572199.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wshorten64to32 -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTryCompileExec3123572199.dir/src.cxx.o -c /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3123572199.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3123572199/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4177691015/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4177691015.dir/build.make CMakeFiles/cmTryCompileExec4177691015.dir/build
+gmake[1]: Entering directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4177691015.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wenumconversion -Werror   -Wenum-conversion -o CMakeFiles/cmTryCompileExec4177691015.dir/src.cxx.o -c /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4177691015.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec4177691015/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2531243795/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2531243795.dir/build.make CMakeFiles/cmTryCompileExec2531243795.dir/build
+gmake[1]: Entering directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2531243795.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wcpp11extensions -Werror   -Wc++11-extensions -o CMakeFiles/cmTryCompileExec2531243795.dir/src.cxx.o -c /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2531243795.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2531243795/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec63123095/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec63123095.dir/build.make CMakeFiles/cmTryCompileExec63123095.dir/build
+gmake[1]: Entering directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec63123095.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTryCompileExec63123095.dir/src.cxx.o -c /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec63123095.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec63123095/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3220089015/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3220089015.dir/build.make CMakeFiles/cmTryCompileExec3220089015.dir/build
+gmake[1]: Entering directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3220089015.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTryCompileExec3220089015.dir/src.cxx.o -c /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3220089015.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3220089015/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec575295067/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec575295067.dir/build.make CMakeFiles/cmTryCompileExec575295067.dir/build
+gmake[1]: Entering directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec575295067.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTryCompileExec575295067.dir/src.cxx.o -c /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec575295067.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec575295067/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1098694050/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1098694050.dir/build.make CMakeFiles/cmTryCompileExec1098694050.dir/build
+gmake[1]: Entering directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1098694050.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTryCompileExec1098694050.dir/src.cxx.o -c /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1098694050.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1098694050/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2503843209/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2503843209.dir/build.make CMakeFiles/cmTryCompileExec2503843209.dir/build
+gmake[1]: Entering directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2503843209.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2503843209.dir/CheckSymbolExists.c.o   -c /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2503843209
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2503843209.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2503843209.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2503843209 -rdynamic 
+CMakeFiles/cmTryCompileExec2503843209.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2503843209] Error 1
+gmake: *** [cmTryCompileExec2503843209/fast] Error 2
+
+File /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3102586554/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3102586554.dir/build.make CMakeFiles/cmTryCompileExec3102586554.dir/build
+gmake[1]: Entering directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3102586554.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3102586554.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3102586554
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3102586554.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3102586554.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3102586554 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3102586554] Error 1
+gmake[1]: Leaving directory `/gpfs/home/hermann/eigen/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3102586554/fast] Error 2
+
+
